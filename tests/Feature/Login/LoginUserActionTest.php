@@ -80,10 +80,10 @@ class LoginUserActionTest extends TestCase
             'email' => '',
             'password' => '12345456'
         ]);
-        $response->assertStatus(422)
+        $response->assertStatus(200)
             ->assertJson(
                 [
-                    'message' => "Veuillez entrer votre adresse email",
+                    'email' => ["Veuillez entrer votre adresse email"],
                 ]
             );
     }
@@ -93,9 +93,9 @@ class LoginUserActionTest extends TestCase
             'email' => 'test0@gmail.com',
             'password' => ''
         ]);
-        $response->assertStatus(422)
+        $response->assertStatus(200)
             ->assertJson([
-                'message' => "Veuillez entrer votre mot de passe",
+                'password' => ["Veuillez entrer votre mot de passe"],
             ]);
     }
 }
