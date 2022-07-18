@@ -2,7 +2,7 @@
 
 namespace Module\Domain\Auth;
 
-use phpDocumentor\Reflection\Types\Boolean;
+use Module\Domain\Auth\Exceptions\ErrorAuthException;
 
 class Auth
 {
@@ -31,6 +31,8 @@ class Auth
         $self->password = $password;
         $self->passwordHashed = $passwordProvider->crypt($password);
         $self->passwordProvider = $passwordProvider;
+        $self->validateEmail();
+        $self->validatePassword();
 
         return $self;
     }
@@ -79,6 +81,29 @@ class Auth
     public function getEmail(): string
     {
         return $this->email;
+    }
+
+    /**
+     * @return void
+     */
+    private function validateEmail() : void
+    {
+        if (!filter_var($this->email, FILTER_VALIDATE_EMAIL)) {
+            throw new ErrorAuthException("$this->email : email non valide !");
+        }
+    }
+
+    /**
+     * @return void
+     */
+    private function validatePassword() : void
+    {
+        if (!$this->password) {
+            throw new ErrorAuthException("Le mot de passe doit être non vide !");
+        }
+        if (strlen($this->password) < 5) {
+            throw new ErrorAuthException("$this->password : mot de passe non valide !");
+        }
     }
 
 }

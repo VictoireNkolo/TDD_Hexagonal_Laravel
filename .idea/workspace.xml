@@ -1,44 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="74d47589-21ba-40de-903a-6f76daf8d35a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/Factories/LoginUserFactory.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginUserAction.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Request/LoginUserRequest.php" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Factories/LoginUserFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginUserAction.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Request/LoginUserRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ViewModel/LoginUserViewModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ViewModel/ViewModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Domain/Auth/Exceptions/ErrorAuthException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Infrastructure/Auth/AuthRepositoryEloquent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Infrastructure/Auth/PasswordProviderLaravel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/Login/LoginUserActionTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/Login/LoginUserTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.phpunit.result.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.phpunit.result.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/ViewModel/LoginUserViewModel.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/ViewModel/ViewModel.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/hot" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Application/Product/Command/SaveProductCommand.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Application/Product/Command/SaveProductHandler.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Application/Product/Command/SaveProductResponse.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Auth/Exceptions/ErrorAuthException.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Auth/useCases/Login/Auth.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Auth/useCases/Login/AuthRepository.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Auth/useCases/Login/AuthResult.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Auth/useCases/Login/LoginCommand.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Auth/useCases/Login/LoginResponse.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Auth/useCases/Login/LoginUser.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Auth/useCases/Login/PasswordProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Domain/Product/ErrorSaveProductArgumentsException.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Domain/Product/Product.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Domain/Product/ProductRepository.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Domain/Product/ScrapperApi.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Infrastructure/Auth/AuthRepositoryEloquent.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Infrastructure/Auth/AuthRepositoryInMemory.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Infrastructure/Auth/PasswordProviderLaravel.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Infrastructure/Auth/PasswordProviderMemory.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Infrastructure/Product/ProductRepositoryInMemory.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Infrastructure/Scrapper/Curl.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Infrastructure/Scrapper/ScrapperWebScrappingApi.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/Login/LoginUserActionTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/Login/LoginUserTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Unit/AsinData/Builder/SaveProductCommandBuild.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Unit/AsinData/RetrieveData/RetrieveDataTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Unit/Login/LoginCommandBuilder.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Unit/Login/LoginUserTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Unit/Scrapper/LoadPageDataTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Domain/Auth/Auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/Auth/Auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Infrastructure/Auth/PasswordProviderInMemory.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Infrastructure/Auth/PasswordProviderInMemory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Unit/Login/LoginCommandBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Shared/Login/LoginCommandBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Unit/Login/LoginUserTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/Login/LoginUserTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/InstalledVersions.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/InstalledVersions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/Access/AuthorizationException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/Access/AuthorizationException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/Access/Gate.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/Access/Gate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/Access/HandlesAuthorization.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/Access/HandlesAuthorization.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/Access/Response.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/Access/Response.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Collections/Collection.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Collections/Collection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Console/GeneratorCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Console/GeneratorCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Collection.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Collection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/HasAttributes.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/HasAttributes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/MorphMany.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/MorphMany.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Schema/MySqlSchemaState.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Schema/MySqlSchemaState.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Application.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Application.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Inspiring.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Inspiring.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/InteractsWithContainer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/InteractsWithContainer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Http/Client/ResponseSequence.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Http/Client/ResponseSequence.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Mail/Attachment.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Mail/Attachment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Queue/CallQueuedHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Queue/CallQueuedHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Queue/SyncQueue.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Queue/SyncQueue.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ValidateSignature.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ValidateSignature.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/App.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/App.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/DB.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/DB.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/MessageBag.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/MessageBag.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Str.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Str.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Stringable.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Stringable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/View/Compilers/Concerns/CompilesConditionals.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/View/Compilers/Concerns/CompilesConditionals.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +218,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary" value="PHPUnit" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Infrastructure/Auth" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -191,38 +226,41 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="ts.external.directory.path" value="C:\laragon\www\school-manager\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\tdd_hexagonal_laravel\src\Domain\Auth\Exceptions" />
+      <recent name="C:\laragon\www\school-manager\tests\shared\Login" />
       <recent name="C:\laragon\www\school-manager\src\Application\Auth\Login" />
       <recent name="C:\laragon\www\school-manager\src\Domain\Auth" />
     </key>
   </component>
-  <component name="RunManager" selected="PHPUnit.LoginUserTest.test_user_tries_login_with_wrong_password">
+  <component name="RunManager" selected="PHPUnit.LoginUserActionTest.test_user_tries_login_with_invalid_email_credential">
+    <configuration name="LoginUserActionTest.test_user_tries_login_with_empty_email" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Login\LoginUserActionTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/Login/LoginUserActionTest.php" method="test_user_tries_login_with_empty_email" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="LoginUserActionTest.test_user_tries_login_with_empty_password" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Login\LoginUserActionTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/Login/LoginUserActionTest.php" method="test_user_tries_login_with_empty_password" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="LoginUserActionTest.test_user_tries_login_with_invalid_email_credential" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Login\LoginUserActionTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/Login/LoginUserActionTest.php" method="test_user_tries_login_with_invalid_email_credential" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="LoginUserTest (1)" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\Login\LoginUserTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/Login/LoginUserTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
     <configuration name="LoginUserTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Unit\Login\LoginUserTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/Login/LoginUserTest.php" scope="Class" />
       <method v="2" />
     </configuration>
-    <configuration name="LoginUserTest.test_can_login" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Unit\Login\LoginUserTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/Login/LoginUserTest.php" method="test_can_login" scope="Method" />
-      <method v="2" />
-    </configuration>
     <configuration name="LoginUserTest.test_user_can_login" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner class="Tests\Unit\Login\LoginUserTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/Login/LoginUserTest.php" method="test_user_can_login" scope="Method" />
-      <method v="2" />
-    </configuration>
-    <configuration name="LoginUserTest.test_user_login_with_wrong_password" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Unit\Login\LoginUserTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/Login/LoginUserTest.php" method="test_user_login_with_wrong_password" scope="Method" />
-      <method v="2" />
-    </configuration>
-    <configuration name="LoginUserTest.test_user_tries_login_with_wrong_credentials" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Unit\Login\LoginUserTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/Login/LoginUserTest.php" method="test_user_tries_login_with_wrong_credentials" scope="Method" />
-      <method v="2" />
-    </configuration>
-    <configuration name="LoginUserTest.test_user_tries_login_with_wrong_password" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Unit\Login\LoginUserTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/Login/LoginUserTest.php" method="test_user_tries_login_with_wrong_password" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -231,10 +269,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="PHPUnit.LoginUserTest.test_user_tries_login_with_wrong_password" />
-        <item itemvalue="PHPUnit.LoginUserTest.test_user_tries_login_with_wrong_credentials" />
-        <item itemvalue="PHPUnit.LoginUserTest.test_can_login" />
-        <item itemvalue="PHPUnit.LoginUserTest.test_user_login_with_wrong_password" />
+        <item itemvalue="PHPUnit.LoginUserActionTest.test_user_tries_login_with_invalid_email_credential" />
+        <item itemvalue="PHPUnit.LoginUserActionTest.test_user_tries_login_with_empty_password" />
+        <item itemvalue="PHPUnit.LoginUserActionTest.test_user_tries_login_with_empty_email" />
+        <item itemvalue="PHPUnit.LoginUserTest (1)" />
         <item itemvalue="PHPUnit.LoginUserTest" />
       </list>
     </recent_temporary>
@@ -257,11 +295,33 @@
       <workItem from="1657590688094" duration="4859000" />
       <workItem from="1657644389429" duration="2532000" />
       <workItem from="1657650902994" duration="30027000" />
+      <workItem from="1657842149812" duration="2022000" />
+      <workItem from="1657877780642" duration="940000" />
+      <workItem from="1657951795949" duration="24055000" />
+      <workItem from="1657993501410" duration="298000" />
+      <workItem from="1657993843919" duration="9492000" />
+      <workItem from="1658129384853" duration="344000" />
+      <workItem from="1658130325679" duration="39000" />
+      <workItem from="1658130601243" duration="181000" />
+      <workItem from="1658130928393" duration="226000" />
+      <workItem from="1658131511770" duration="36000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1802" y="-210" key="#CLI_Interpreters" timestamp="1657588466683">
@@ -280,69 +340,89 @@
       <screen x="1366" y="-305" width="1920" height="1050" />
     </state>
     <state x="1918" y="-130" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1657650748040" />
-    <state x="1458" y="-213" width="1736" height="866" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1657769313736">
+    <state x="1458" y="-213" width="1736" height="866" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1658004497724">
       <screen x="1366" y="-305" width="1920" height="1050" />
     </state>
-    <state x="1458" y="-213" width="1736" height="866" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1657769313736" />
-    <state x="2076" y="-134" key="#com.intellij.ide.util.MemberChooser" timestamp="1657693867457">
+    <state x="1458" y="-213" width="1736" height="866" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1658004497724" />
+    <state x="2076" y="-134" key="#com.intellij.ide.util.MemberChooser" timestamp="1657959838566">
       <screen x="1366" y="-305" width="1920" height="1050" />
     </state>
-    <state x="2076" y="-134" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1657693867457" />
-    <state x="2086" y="93" key="ComposerInitDialogKey" timestamp="1657588376858">
+    <state x="2076" y="-134" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1657959838566" />
+    <state x="1990" y="-84" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1657962176276">
       <screen x="1366" y="-305" width="1920" height="1050" />
     </state>
-    <state x="2086" y="93" key="ComposerInitDialogKey/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1657588376858" />
+    <state x="1990" y="-84" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1657962176276" />
+    <state x="2086" y="93" key="ComposerInitDialogKey" timestamp="1657993626462">
+      <screen x="1366" y="-305" width="1920" height="1050" />
+    </state>
+    <state x="2086" y="93" key="ComposerInitDialogKey/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1657993626462" />
     <state x="2171" y="-88" key="EnvironmentVariablesDialog" timestamp="1657589587137">
       <screen x="1366" y="-305" width="1920" height="1050" />
     </state>
     <state x="2171" y="-88" key="EnvironmentVariablesDialog/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1657589587137" />
-    <state x="2052" y="-85" key="FileChooserDialogImpl" timestamp="1657764810242">
+    <state x="2052" y="-85" key="FileChooserDialogImpl" timestamp="1658130771377">
       <screen x="1366" y="-305" width="1920" height="1050" />
     </state>
-    <state x="2052" y="-85" key="FileChooserDialogImpl/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1657764810242" />
-    <state width="1865" height="269" key="GridCell.Tab.0.bottom" timestamp="1657774832988">
+    <state x="2052" y="-85" key="FileChooserDialogImpl/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1658130771377" />
+    <state width="1865" height="360" key="GridCell.Tab.0.bottom" timestamp="1658007626338">
       <screen x="1366" y="-305" width="1920" height="1050" />
     </state>
-    <state width="1865" height="269" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1657774832988" />
-    <state width="1865" height="269" key="GridCell.Tab.0.center" timestamp="1657774832988">
+    <state width="1865" height="360" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1658007626338" />
+    <state width="1865" height="360" key="GridCell.Tab.0.center" timestamp="1658007626338">
       <screen x="1366" y="-305" width="1920" height="1050" />
     </state>
-    <state width="1865" height="269" key="GridCell.Tab.0.center/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1657774832988" />
-    <state width="1865" height="269" key="GridCell.Tab.0.left" timestamp="1657774832988">
+    <state width="1865" height="360" key="GridCell.Tab.0.center/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1658007626338" />
+    <state width="1865" height="360" key="GridCell.Tab.0.left" timestamp="1658007626338">
       <screen x="1366" y="-305" width="1920" height="1050" />
     </state>
-    <state width="1865" height="269" key="GridCell.Tab.0.left/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1657774832988" />
-    <state width="1865" height="269" key="GridCell.Tab.0.right" timestamp="1657774832988">
+    <state width="1865" height="360" key="GridCell.Tab.0.left/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1658007626338" />
+    <state width="1865" height="360" key="GridCell.Tab.0.right" timestamp="1658007626338">
       <screen x="1366" y="-305" width="1920" height="1050" />
     </state>
-    <state width="1865" height="269" key="GridCell.Tab.0.right/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1657774832988" />
+    <state width="1865" height="360" key="GridCell.Tab.0.right/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1658007626338" />
+    <state width="1865" height="335" key="GridCell.Tab.1.bottom" timestamp="1657978381557">
+      <screen x="1366" y="-305" width="1920" height="1050" />
+    </state>
+    <state width="1865" height="335" key="GridCell.Tab.1.bottom/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1657978381557" />
+    <state width="1865" height="335" key="GridCell.Tab.1.center" timestamp="1657978381557">
+      <screen x="1366" y="-305" width="1920" height="1050" />
+    </state>
+    <state width="1865" height="335" key="GridCell.Tab.1.center/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1657978381557" />
+    <state width="1865" height="335" key="GridCell.Tab.1.left" timestamp="1657978381557">
+      <screen x="1366" y="-305" width="1920" height="1050" />
+    </state>
+    <state width="1865" height="335" key="GridCell.Tab.1.left/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1657978381557" />
+    <state width="1865" height="335" key="GridCell.Tab.1.right" timestamp="1657978381557">
+      <screen x="1366" y="-305" width="1920" height="1050" />
+    </state>
+    <state width="1865" height="335" key="GridCell.Tab.1.right/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1657978381557" />
     <state width="236" height="549" key="HiddenNamespacesPopup" timestamp="1657584777096">
       <screen x="1366" y="-305" width="1920" height="1050" />
     </state>
     <state width="236" height="549" key="HiddenNamespacesPopup/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1657584777096" />
-    <state x="2037" y="-112" key="NewPhpClassDialog" timestamp="1657768765995">
+    <state x="2037" y="-112" key="NewPhpClassDialog" timestamp="1657970407544">
       <screen x="1366" y="-305" width="1920" height="1050" />
     </state>
-    <state x="2037" y="-112" key="NewPhpClassDialog/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1657768765995" />
-    <state x="1717" y="-222" key="SettingsEditor" timestamp="1657769144469">
+    <state x="2037" y="-112" key="NewPhpClassDialog/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1657970407544" />
+    <state x="1717" y="-222" key="SettingsEditor" timestamp="1657994324274">
       <screen x="1366" y="-305" width="1920" height="1050" />
     </state>
-    <state x="1717" y="-222" key="SettingsEditor/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1657769144469" />
-    <state x="1980" y="-102" width="675" height="655" key="StructurePopup" timestamp="1657653335415">
+    <state x="1717" y="-222" key="SettingsEditor/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1657994324274" />
+    <state x="1980" y="-102" width="675" height="655" key="StructurePopup" timestamp="1658004513782">
       <screen x="1366" y="-305" width="1920" height="1050" />
     </state>
-    <state x="1980" y="-102" width="675" height="655" key="StructurePopup/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1657653335415" />
+    <state x="1980" y="-102" width="675" height="655" key="StructurePopup/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1658004513782" />
     <state x="1512" y="-305" key="com.jetbrains.php.config.phpInfo.PhpInfo.PhpInfoDialog" timestamp="1657581520057">
       <screen x="1366" y="-305" width="1920" height="1050" />
     </state>
     <state x="1512" y="-305" key="com.jetbrains.php.config.phpInfo.PhpInfo.PhpInfoDialog/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1657581520057" />
-    <state x="2022" y="-93" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1657653073106">
+    <state x="2022" y="-93" width="785" height="625" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1657956556537">
       <screen x="1366" y="-305" width="1920" height="1050" />
     </state>
-    <state x="2022" y="-93" key="com.jetbrains.php.test.PhpNewTestDialog/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1657653073106" />
-    <state x="1905" y="-290" width="840" height="1034" key="search.everywhere.popup" timestamp="1657767032691">
+    <state x="2022" y="-93" width="785" height="625" key="com.jetbrains.php.test.PhpNewTestDialog/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1657956556537" />
+    <state x="1905" y="-290" width="840" height="1034" key="search.everywhere.popup" timestamp="1657999982656">
       <screen x="1366" y="-305" width="1920" height="1050" />
     </state>
-    <state x="1905" y="-290" width="840" height="1034" key="search.everywhere.popup/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1657767032691" />
+    <state x="1905" y="-290" width="840" height="1034" key="search.everywhere.popup/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1657999982656" />
   </component>
 </project>

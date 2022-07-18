@@ -2,17 +2,19 @@
 
 namespace Module\Infrastructure\Auth;
 
+use Illuminate\Support\Facades\Hash;
 use Module\Domain\Auth\PasswordProvider;
 
-class PasswordProviderInMemory implements PasswordProvider
+class PasswordProviderLaravel implements PasswordProvider
 {
+
     /**
      * @param string $password
      * @return string
      */
     public function crypt(string $password): string
     {
-        return password_hash($password, PASSWORD_DEFAULT);
+        return Hash::make($password);
     }
 
     /**
@@ -22,6 +24,6 @@ class PasswordProviderInMemory implements PasswordProvider
      */
     public function check(string $password, string $passwordHash): bool
     {
-        return password_verify($password, $passwordHash);
+        return Hash::check($password, $passwordHash);
     }
 }

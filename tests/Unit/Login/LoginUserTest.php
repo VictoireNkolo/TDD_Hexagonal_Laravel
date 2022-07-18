@@ -4,8 +4,10 @@ namespace Tests\Unit\Login;
 
 use Module\Application\Auth\Login\LoginUser;
 use Module\Infrastructure\Auth\AuthRepositoryInMemory;
+use Module\Domain\Auth\Exceptions\ErrorAuthException;
 use Module\Infrastructure\Auth\PasswordProviderInMemory;
 use PHPUnit\Framework\TestCase;
+use Tests\Shared\Login\LoginCommandBuilder;
 
 class LoginUserTest extends TestCase
 {
@@ -47,11 +49,33 @@ class LoginUserTest extends TestCase
     }
 
     public function test_user_tries_login_with_invalid_email() {
+        $loginCommand = LoginCommandBuilder::prepare()
+            ->withEmail('blablagmail.com')
+            ->build();
+        $loginUser = new LoginUser($this->authRepository, $this->passwordProvider);
+        $this->expectException(ErrorAuthException::class);
+        $this->expectExceptionMessage("$loginCommand->email : email non valide !");
+        $loginResponse = $loginUser->__invoke($loginCommand);
+    }
 
+    public function test_user_tries_login_with_empty_password() {
+        $loginCommand = LoginCommandBuilder::prepare()
+            ->withPassword('')
+            ->build();
+        $loginUser = new LoginUser($this->authRepository, $this->passwordProvider);
+        $this->expectException(ErrorAuthException::class);
+        $this->expectExceptionMessage("Le mot de passe doit être non vide !");
+        $loginResponse = $loginUser->__invoke($loginCommand);
     }
 
     public function test_user_tries_login_with_invalid_password() {
-
+        $loginCommand = LoginCommandBuilder::prepare()
+            ->withPassword('1111')
+            ->build();
+        $loginUser = new LoginUser($this->authRepository, $this->passwordProvider);
+        $this->expectException(ErrorAuthException::class);
+        $this->expectExceptionMessage("$loginCommand->password : mot de passe non valide !");
+        $loginResponse = $loginUser->__invoke($loginCommand);
     }
 
 }

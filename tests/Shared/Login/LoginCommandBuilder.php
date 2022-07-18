@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\Unit\Login;
+namespace Tests\Shared\Login;
 
 use Module\Application\Auth\Login\LoginCommand;
 use phpDocumentor\Reflection\Types\Static_;
