@@ -20,9 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74d47589-21ba-40de-903a-6f76daf8d35a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Application/User/SaveUser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/User/SaveUserCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/User/SaveUserResponse.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Domain/User/Exceptions/ErrorUserException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Domain/User/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Domain/User/UserRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Infrastructure/User/UserRepositoryInMemory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Shared/User/SaveUserCommandBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Unit/User/SaveUserTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5c3c6443-2a91-47c7-8e52-be21c3fd08e2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/5c3c6443-2a91-47c7-8e52-be21c3fd08e2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.phpunit.result.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.phpunit.result.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/Login/LoginUserActionTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/Login/LoginUserActionTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +178,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary" value="PHPUnit" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Infrastructure/User" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -187,29 +198,29 @@
       <recent name="C:\laragon\www\school-manager\src\Domain\Auth" />
     </key>
   </component>
-  <component name="RunManager" selected="PHPUnit.LoginUserActionTest.test_user_tries_login_with_empty_password">
-    <configuration name="LoginUserActionTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Login\LoginUserActionTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/Login/LoginUserActionTest.php" scope="Class" />
-      <method v="2" />
-    </configuration>
-    <configuration name="LoginUserActionTest.test_user_tries_login_with_empty_email" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Login\LoginUserActionTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/Login/LoginUserActionTest.php" method="test_user_tries_login_with_empty_email" scope="Method" />
-      <method v="2" />
-    </configuration>
-    <configuration name="LoginUserActionTest.test_user_tries_login_with_empty_password" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Login\LoginUserActionTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/Login/LoginUserActionTest.php" method="test_user_tries_login_with_empty_password" scope="Method" />
-      <method v="2" />
-    </configuration>
-    <configuration name="LoginUserActionTest.test_user_tries_login_with_invalid_email_credential" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Login\LoginUserActionTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/Login/LoginUserActionTest.php" method="test_user_tries_login_with_invalid_email_credential" scope="Method" />
-      <method v="2" />
-    </configuration>
-    <configuration name="LoginUserTest (1)" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\Login\LoginUserTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/Login/LoginUserTest.php" scope="Class" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="PHPUnit.SaveUserTest">
     <configuration name="LoginUserTest.test_user_can_login" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner class="Tests\Unit\Login\LoginUserTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/Login/LoginUserTest.php" method="test_user_can_login" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SaveUserTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Unit\User\SaveUserTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/User/SaveUserTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SaveUserTest.test_creation_of_a_user_with_empty_email" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Unit\User\SaveUserTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/User/SaveUserTest.php" method="test_creation_of_a_user_with_empty_email" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SaveUserTest.test_creation_of_a_user_with_empty_name" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Unit\User\SaveUserTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/User/SaveUserTest.php" method="test_creation_of_a_user_with_empty_name" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SaveUserTest.test_creation_of_a_user_with_empty_role" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Unit\User\SaveUserTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/User/SaveUserTest.php" method="test_creation_of_a_user_with_empty_role" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SaveUserTest.test_creation_of_a_user_with_invalid_email" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Unit\User\SaveUserTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/User/SaveUserTest.php" method="test_creation_of_a_user_with_invalid_email" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -218,11 +229,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="PHPUnit.LoginUserActionTest.test_user_tries_login_with_empty_password" />
-        <item itemvalue="PHPUnit.LoginUserActionTest.test_user_tries_login_with_empty_email" />
-        <item itemvalue="PHPUnit.LoginUserActionTest" />
-        <item itemvalue="PHPUnit.LoginUserActionTest.test_user_tries_login_with_invalid_email_credential" />
-        <item itemvalue="PHPUnit.LoginUserTest (1)" />
+        <item itemvalue="PHPUnit.SaveUserTest" />
+        <item itemvalue="PHPUnit.SaveUserTest.test_creation_of_a_user_with_empty_role" />
+        <item itemvalue="PHPUnit.SaveUserTest.test_creation_of_a_user_with_empty_name" />
+        <item itemvalue="PHPUnit.SaveUserTest.test_creation_of_a_user_with_empty_email" />
+        <item itemvalue="PHPUnit.SaveUserTest.test_creation_of_a_user_with_invalid_email" />
       </list>
     </recent_temporary>
   </component>
@@ -254,7 +265,8 @@
       <workItem from="1658130601243" duration="181000" />
       <workItem from="1658130928393" duration="226000" />
       <workItem from="1658131511770" duration="36000" />
-      <workItem from="1658131595208" duration="3070000" />
+      <workItem from="1658131595208" duration="6747000" />
+      <workItem from="1658186104666" duration="13067000" />
     </task>
     <servers />
   </component>
@@ -286,26 +298,30 @@
       <screen x="1366" y="-305" width="1920" height="1050" />
     </state>
     <state x="2183" y="53" key="#Notifications/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1658133467951" />
-    <state x="1918" y="-130" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1657650748040">
+    <state x="1918" y="-130" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1658188128161">
       <screen x="1366" y="-305" width="1920" height="1050" />
     </state>
-    <state x="1918" y="-130" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1657650748040" />
+    <state x="1918" y="-130" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1658188128161" />
     <state x="1458" y="-213" width="1736" height="866" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1658135058638">
       <screen x="1366" y="-305" width="1920" height="1050" />
     </state>
     <state x="1458" y="-213" width="1736" height="866" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1658135058638" />
-    <state x="2076" y="-134" key="#com.intellij.ide.util.MemberChooser" timestamp="1657959838566">
+    <state x="2076" y="-134" key="#com.intellij.ide.util.MemberChooser" timestamp="1658196859854">
       <screen x="1366" y="-305" width="1920" height="1050" />
     </state>
-    <state x="2076" y="-134" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1657959838566" />
-    <state x="2003" y="-57" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1658132613707">
+    <state x="2076" y="-134" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1658196859854" />
+    <state x="2003" y="-57" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1658136851770">
       <screen x="1366" y="-305" width="1920" height="1050" />
     </state>
-    <state x="2003" y="-57" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1658132613707" />
-    <state x="1990" y="-84" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1657962176276">
+    <state x="2003" y="-57" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1658136851770" />
+    <state x="2144" y="-72" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1658189082617">
       <screen x="1366" y="-305" width="1920" height="1050" />
     </state>
-    <state x="1990" y="-84" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1657962176276" />
+    <state x="2144" y="-72" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1658189082617" />
+    <state x="1990" y="-84" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1658198796576">
+      <screen x="1366" y="-305" width="1920" height="1050" />
+    </state>
+    <state x="1990" y="-84" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1658198796576" />
     <state x="2086" y="93" key="ComposerInitDialogKey" timestamp="1657993626462">
       <screen x="1366" y="-305" width="1920" height="1050" />
     </state>
@@ -314,26 +330,26 @@
       <screen x="1366" y="-305" width="1920" height="1050" />
     </state>
     <state x="2171" y="-88" key="EnvironmentVariablesDialog/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1657589587137" />
-    <state x="2052" y="-85" key="FileChooserDialogImpl" timestamp="1658130771377">
+    <state x="2052" y="-85" key="FileChooserDialogImpl" timestamp="1658192779158">
       <screen x="1366" y="-305" width="1920" height="1050" />
     </state>
-    <state x="2052" y="-85" key="FileChooserDialogImpl/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1658130771377" />
-    <state width="1865" height="360" key="GridCell.Tab.0.bottom" timestamp="1658135043102">
+    <state x="2052" y="-85" key="FileChooserDialogImpl/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1658192779158" />
+    <state width="1865" height="360" key="GridCell.Tab.0.bottom" timestamp="1658199366552">
       <screen x="1366" y="-305" width="1920" height="1050" />
     </state>
-    <state width="1865" height="360" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1658135043102" />
-    <state width="1865" height="360" key="GridCell.Tab.0.center" timestamp="1658135043102">
+    <state width="1865" height="360" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1658199366552" />
+    <state width="1865" height="360" key="GridCell.Tab.0.center" timestamp="1658199366552">
       <screen x="1366" y="-305" width="1920" height="1050" />
     </state>
-    <state width="1865" height="360" key="GridCell.Tab.0.center/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1658135043102" />
-    <state width="1865" height="360" key="GridCell.Tab.0.left" timestamp="1658135043102">
+    <state width="1865" height="360" key="GridCell.Tab.0.center/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1658199366552" />
+    <state width="1865" height="360" key="GridCell.Tab.0.left" timestamp="1658199366552">
       <screen x="1366" y="-305" width="1920" height="1050" />
     </state>
-    <state width="1865" height="360" key="GridCell.Tab.0.left/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1658135043102" />
-    <state width="1865" height="360" key="GridCell.Tab.0.right" timestamp="1658135043102">
+    <state width="1865" height="360" key="GridCell.Tab.0.left/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1658199366552" />
+    <state width="1865" height="360" key="GridCell.Tab.0.right" timestamp="1658199366552">
       <screen x="1366" y="-305" width="1920" height="1050" />
     </state>
-    <state width="1865" height="360" key="GridCell.Tab.0.right/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1658135043102" />
+    <state width="1865" height="360" key="GridCell.Tab.0.right/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1658199366552" />
     <state width="1865" height="335" key="GridCell.Tab.1.bottom" timestamp="1657978381557">
       <screen x="1366" y="-305" width="1920" height="1050" />
     </state>
@@ -350,14 +366,14 @@
       <screen x="1366" y="-305" width="1920" height="1050" />
     </state>
     <state width="1865" height="335" key="GridCell.Tab.1.right/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1657978381557" />
-    <state width="236" height="549" key="HiddenNamespacesPopup" timestamp="1657584777096">
+    <state width="236" height="549" key="HiddenNamespacesPopup" timestamp="1658188502197">
       <screen x="1366" y="-305" width="1920" height="1050" />
     </state>
-    <state width="236" height="549" key="HiddenNamespacesPopup/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1657584777096" />
-    <state x="2037" y="-112" key="NewPhpClassDialog" timestamp="1657970407544">
+    <state width="236" height="549" key="HiddenNamespacesPopup/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1658188502197" />
+    <state x="2037" y="-112" key="NewPhpClassDialog" timestamp="1658198279578">
       <screen x="1366" y="-305" width="1920" height="1050" />
     </state>
-    <state x="2037" y="-112" key="NewPhpClassDialog/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1657970407544" />
+    <state x="2037" y="-112" key="NewPhpClassDialog/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1658198279578" />
     <state x="1717" y="-222" key="SettingsEditor" timestamp="1657994324274">
       <screen x="1366" y="-305" width="1920" height="1050" />
     </state>
@@ -374,9 +390,9 @@
       <screen x="1366" y="-305" width="1920" height="1050" />
     </state>
     <state x="2022" y="-93" width="785" height="625" key="com.jetbrains.php.test.PhpNewTestDialog/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1657956556537" />
-    <state x="1905" y="-290" width="840" height="1034" key="search.everywhere.popup" timestamp="1657999982656">
+    <state x="1905" y="-290" width="840" height="1034" key="search.everywhere.popup" timestamp="1658194114550">
       <screen x="1366" y="-305" width="1920" height="1050" />
     </state>
-    <state x="1905" y="-290" width="840" height="1034" key="search.everywhere.popup/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1657999982656" />
+    <state x="1905" y="-290" width="840" height="1034" key="search.everywhere.popup/0.0.1366.738/1366.-305.1920.1050@1366.-305.1920.1050" timestamp="1658194114550" />
   </component>
 </project>
